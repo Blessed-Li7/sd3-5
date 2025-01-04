@@ -1,0 +1,8 @@
+# 安装 Stable Diffusion 所需的依赖
+pip install torch torchvision
+pip install diffusers transformers
+
+# 下载 Stable Diffusion 模型
+git clone https://github.com/CompVis/stable-diffusion.git
+cd stable-diffusion
+pip install -r requirements.txt
